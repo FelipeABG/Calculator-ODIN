@@ -1,0 +1,64 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 400px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display{
+    margin-top: 30px;
+    border: 2px solid black;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.aligned-buttons{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px 70px;
+    gap: 20px;
+}
+
+.not-aligned-buttons{
+    margin-top: 20px;
+    display: flex;
+    gap: 21px;
+    align-items: center;
+}
+
+.number-button,
+.operation-button,
+.clear-button,
+.zero-button,
+.dot-button{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.zero-button{
+    padding: 22px 27px;
+}
+
+.equal-button{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 22px 72px;
+    font-size: 20px;
+}
+
+.dot-button{
+    padding: 22px 29px;
+}
+
+
