@@ -14,7 +14,9 @@ The following tools have been used in the project:
 - [VS Code](https://code.visualstudio.com)
 
 ---
-### Directions
+### Project directions:
+The following directions were used to create the project.
+
 - [Odin Calculator Project](https://www.theodinproject.com/lessons/foundations-calculator)
 ---
 ### Author
