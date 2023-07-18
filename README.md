@@ -15,7 +15,7 @@ The following tools have been used in the project:
 
 ---
 ### Directions
-- [ODIN CALCULATOR](https://www.theodinproject.com/lessons/foundations-calculator)
+- [Odin Calculator Project](https://www.theodinproject.com/lessons/foundations-calculator)
 ---
 ### Author
 
