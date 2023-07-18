@@ -47,8 +47,7 @@ button:hover{
 .aligned-buttons{
     margin-top: 10px;
     display: grid;
-    grid-template-columns: 70px 70px 70px 70px;
-    grid-template-rows: 70px 70px 70px 70px;
+    grid-template: repeat(4, 70px) / repeat(4, 70px);
     gap: 20px;
 }
 
