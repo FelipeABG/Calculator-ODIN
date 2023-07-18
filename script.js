@@ -54,7 +54,7 @@ function calculator(){
                 expression.secondNumber = Number(display.innerHTML.slice(expression.indexofOperator + 1,display.innerHTML.length -1))
                 expression.indexofOperator = display.innerHTML.slice(-1)
                 clearDisplay()
-                renderDisplay(operate(expression.firstNumber, expression.secondNumber, expression.operator)+expression.indexofOperator)
+                renderDisplay(getResult()+expression.indexofOperator)
                 resetExpression()
                 getPartialExpression()
             }
@@ -65,13 +65,16 @@ function calculator(){
     equalButton.addEventListener('click', () => {
         expression.secondNumber = Number(display.innerHTML.slice(expression.indexofOperator + 1))
         clearDisplay()
-        renderDisplay(operate(expression.firstNumber, expression.secondNumber, expression.operator))
+        renderDisplay(getResult())
         resetExpression()
     })
 
 }  
 
 
+function getResult(){
+   return roundResult(operate(expression.firstNumber, expression.secondNumber, expression.operator))
+}
 
 function renderDisplay(elementToRender){
     display.innerHTML += elementToRender
@@ -112,3 +115,7 @@ function resetExpression(){
     expression.indexofOperator = undefined
     canUseDot = true
 }
+
+function roundResult(number) {
+    return Math.round(number * 1000) / 1000
+  }
