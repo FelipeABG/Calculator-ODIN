@@ -14,7 +14,9 @@ The following tools have been used in the project:
 - [VS Code](https://code.visualstudio.com)
 
 ---
-
+### Directions
+- [ODIN CALCULATOR](https://www.theodinproject.com/lessons/foundations-calculator)
+---
 ### Author
 
 Made by Felipe Augusto 
