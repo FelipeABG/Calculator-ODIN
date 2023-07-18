@@ -116,6 +116,6 @@ function resetExpression(){
     canUseDot = true
 }
 
-function roundResult(number) {
+function roundResult(number){
     return Math.round(number * 1000) / 1000
-  }
+}
