@@ -25,6 +25,6 @@ Made by Felipe Augusto
 
 ---
 
-#### [Live Server](https://felipeabg.github.io/Calculator-ODIN/)
+#### [Live Server](https://felipeabg.github.io/calculator/)
 
  
